@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+    <style>
+    body {
+        font-family: 'Chela One', cursive;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul{
+        display: flex;
+        float: right;
+        justify-content: flex-end;
+        align-content: center;
+        padding: inherit;
+        height: 100%;
+        margin:0px;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+        position: fixed;
+        
+    }
+    nav{
+        height: 100%;
+        margin: 0px;
+        background: pink;
+    }
+    nav ul a{
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        height: 100%;
+        padding: 0px 60px;
+        color: white;
+    }
+    #welcome-Section{
+        padding-top: 44.7vh;
+        padding-bottom:41.8vh; 
+        min-width: 55vh;
+        width: 100%;
+        text-align: center;
+        background: pink;
+        color:white;
+        top: 0;
+    }
+    nav ul a:hover{
+        background: rgb(175, 99, 112);
+        border-radius: 5px;
+    }
+    section p{
+        margin: 0px;
+        font-size: 2rem;
+    }
+    section h1{
+        margin: 0px;
+        
+        font-size: 5rem;
+    }
+    #projects{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        padding: 0px 0px 100px 0px ;
+        background: white;
+        align-items: center;
+        text-align: center;
+    }
+    .rowP{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin: 0px 40px 80px 40px;
+    }
+    .pHeadline{
+        text-align: center;
+        margin: 80px 0px;
+        font-size: 3rem;
+        padding: 0px 100px;
+        color: pink;
+    }
+    .card{
+        border: 1px solid pink;
+        display: flex;
+        flex-flow: column;
+        margin: 10px 90px;
+        
+    }
+    button{
+        max-width: 200px;
+        font-family: 'Chela One', cursive;
+        width: 40%;
+        background: pink;
+        color: white;
+        height: 50px;
+        font-size: 2rem;
+        border: 0px;
+        border-radius: 5px;
+    }
+    button:hover{
+        background: rgb(141, 101, 126);
+    }
+    .contact{
+        display: flex;
+        justify-items: center;
+        width: 100%;
+        padding: 0px 0px 100px 0px ;
+        background: pink;
+        align-items: center;
+        text-align: center;
+    }
+    .contactCont{
+        background: pink;  
+        display: flex;
+        flex-flow: column;
+        padding: 100px 0px; 
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        margin: 0px;
+        color: white;
+    }
+    #icon{
+        margin: 50px;
+        margin-top: 200px;
+        font-size: 3rem; 
+        
+    }
+    .facebook{
+        color: rgb(0, 132, 255);
+        background: white;
+        border-radius: 100%;
+        padding: 30px 45px;
+    }
+    .github{
+        
+        background: white;
+        border-radius: 100%;
+        color:black;
+        padding: 30px 35px; 
+    }
+    .mail{
+        
+        color: rgb(0, 132, 255);
+        background: white;
+        border-radius: 100%;
+        padding: 30px 35px; 
+    }
+    .twitter{
+        
+        color: rgb(0, 132, 255);
+
+        background: white;
+        border-radius: 100%;
+        padding: 30px 35px; 
+    }
+    a{
+        text-decoration: none;
+    }
+    .iconCont{
+        display: flex;
+        justify-items: center;
+    }
+    footer{
+        display: flex;
+        margin: 0px;
+        background: rgb(255, 161, 177);
+        height: 100%;
+        justify-content: space-between;
+    }
+    .myProfile{
+        display: flex;
+        flex-flow: column;
+        max-width: 300px;
+        align-items: center;
+        margin: 10px 100px; 
+        width: 100%;
+        height: 120;  
+        
+        
+    }
+    .myProfile p{
+        text-align: justify;
+    }
+    .pages{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+    .backToTop{
+        padding: 80px 160px;
+        font-size: 2rem;
+
+    }
+    .copy{
+        width: 100%;
+        height: 100%;
+        background: rgb(255, 87, 115);
+        text-align: right;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+        <ul style="list-style:none;">
+            <a href="#welcome-Section" target=""style="text-decoration:none;">About</a>
+            <a style="text-decoration:none;" href="#projects">Work</a>
+            <a style="text-decoration:none;" href="#contact">Contact</a>
+        </ul>
+</header>
+<section id="welcome-Section">
+<h1 id="intro">Hey i'am Atul.</h1>
+<p>a web developer</p>
+</section>
+<section id="projects">
+    <h2 class="pHeadline">These are some of my projects</h2>
+    <div class="rowP">
+            <a href="#" class="card">
+                    <img src="p1.jpg" height="350" width="450">
+                    <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                </a>
+                <a href="#" class="card">
+                        <img src="p1.jpg" height="350" width="450">
+                        <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                    </a>
+                    <a href="#" class="card">
+                            <img src="p1.jpg" height="350" width="450">
+                            <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                        </a>
+    </div>
+    <div class="rowP">
+            <a href="#" class="card">
+                    <img src="p1.jpg" height="350" width="450">
+                    <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                </a>
+                <a href="#" class="card">
+                        <img src="p1.jpg" height="350" width="450">
+                        <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                    </a>
+                    <a href="#" class="card">
+                            <img src="p1.jpg" height="350" width="450">
+                            <h2 style="border-top:1px solid pink;text-align:center; background:white; margin:0;padding:10px;">Tribue Page</h2>
+                        </a>
+        </div>
+        <button src="#" >Show all</button>
+</section>
+<section classs="contact" id="contact">
+    <div class="contactCont">
+            <h1>Let's work together...</h1>
+            <div class="iconCont">
+                    <div id="icon" class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                    <div id="icon" class="github"><a href="#"><i class="fab fa-github"></i></a></div>
+                    <div id="icon" class="mail"><a href="#"><i class="fas fa-envelope-open"></i></a></div>
+                    <div id="icon" class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                    <div id="icon" classs="linkedin" style="color: rgb(0, 132, 255);
+                    background: white;
+                    border-radius: 100%;
+                    padding: 30px 35px;"><a href="#"><i class="fab fa-linkedin-in"></i></div>
+            </a></div>
+    </div>
+</section>
+<footer>
+    <div class="myProfile">
+            <h2>MY PROFILE</h2>
+            <p>I am currently studying Bachelors of Computer Science at xyz university. I use Front-End expertise and my work experience to develop and optimize web applications. </p>
+    </div>
+    <div class="pages">
+        <h2>PAGES</h2>
+        <ul style="list-style:none; display:flex;flex-flow:column;margin:0px;height:30%;">
+            <li><a href="#" style="color:black;"">About</a></li>
+            <li > <a href="#projects" style="color:black;"">Projects</a></li>
+            <li> <a href="#contact" style="color:black;">Contact</a></li>
+        </ul>
+    </div>
+    <div class="backToTop">
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+</footer>
+<div class="copy">
+        <p style="margin:0; padding-right:50px;">© 2019 XYZ EARTH</p>   
+</div>
+</body>
+</html>
